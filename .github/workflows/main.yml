@@ -1,0 +1,25 @@
+
+name: Release to Production Environment
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: ssh and deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            cd /home/ei/PROD-room-environment-visualization
+            git pull origin main
+            docker compose down
+            docker compose up --build -d
+            docker exec -i frontend npm run build

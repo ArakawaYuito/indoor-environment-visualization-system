@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="340"
+   height="340"
+   viewBox="0 0 350 350"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="roomSample.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.22"
+     inkscape:cx="147.97297"
+     inkscape:cy="196.84685"
+     inkscape:window-width="1651"
+     inkscape:window-height="1250"
+     inkscape:window-x="64"
+     inkscape:window-y="1350"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="b">
+      <stop
+         style="stop-color:#ae1dcd;stop-opacity:1"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#008ffb;stop-opacity:1"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="a">
+      <stop
+         style="stop-color:#ae1dcd;stop-opacity:1"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#0c4ad9;stop-opacity:1"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#b"
+       id="c"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.8976843,0,0,5.2514645,567.22614,-153.80208)"
+       x1="-115.794"
+       y1="62.611"
+       x2="-44.374"
+       y2="62.611" />
+  </defs>
+  <path
+     style="fill:none;fill-opacity:1;stroke:url(#c);stroke-width:5.90828;stroke-linejoin:round;paint-order:fill markers stroke"
+     d="M 4.7368916,347.04586 H 347.04586 V 136.76671 H 224.9172 V 57.432834 H 80.508971 V 2.9541399 H 2.9541345 Z"
+     id="path5" />
+</svg>
